@@ -1,7 +1,7 @@
 describe("App initialization", () => {
   it("Loads todos on page load", () => {
-    // seeAndVisit comes to /e2e/support/commands.js
-    cy.seeAndVisit();
+    // seedAndVisit comes to /e2e/support/commands.js
+    cy.seedAndVisit();
     cy.get(".todo-list li").should("have.length", 4);
   });
 

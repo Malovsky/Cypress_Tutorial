@@ -1,6 +1,6 @@
 describe("List items", () => {
   beforeEach(() => {
-    cy.seeAndVisit();
+    cy.seedAndVisit();
   });
 
   it("properly displays completed items", () => {
